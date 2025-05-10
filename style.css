@@ -9,24 +9,22 @@ body {
 
 .calculator {
     background-color: #333;
-    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    padding: 2px;
     width: 300px;
+    padding-top: 20px;
 }
 
 #display {
-    background-color: #444;
+    background-color: #333;
     color: #fff;
     font-size: 24px;
     text-align: right;
     padding: 15px;
     margin-bottom: 5px;
-    /* Réduire la marge pour le second affichage */
     border-radius: 4px;
     overflow: hidden;
     min-height: 30px;
-    /* Assurer une hauteur minimale */
 }
 
 #operation-display {
@@ -36,19 +34,20 @@ body {
     margin-bottom: 10px;
     overflow: hidden;
     min-height: 20px;
+    padding-right: 15px;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
+    grid-gap: 2px;
 }
 
 button {
     background-color: #555;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 15px;
     font-size: 18px;
     cursor: pointer;
@@ -60,18 +59,18 @@ button:hover {
 }
 
 .operator {
-    background-color: #ff9800;
+    background-color: #CC29CC;
 }
 
 .operator:hover {
-    background-color: #ffb040;
+    background-color: #d667d6;
 }
 
 .equal {
     grid-column: span 2;
-    background-color: #4caf50;
+    background-color: #564caf;
 }
 
 .equal:hover {
-    background-color: #66bb6a;
+    background-color: #7f75d3;
 }
